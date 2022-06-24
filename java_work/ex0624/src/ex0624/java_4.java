@@ -1,5 +1,13 @@
 package ex0624;
 
+//문제1
+//int 형 변수 num1,num2,num3에 각각 10,20,30이 저장된 상태에서 다음 문장을 실행하면 변수에는
+//각각 얼마가 저장되겠는가?
+//  num1 = num2 = num3;
+//이의 확인을 위한 코드를 작성하고 그러한 결과를 보이는 이유를 설명해보자
+
+
+
 public class java_4{
 	
 	public static void main(String[] args) {
