@@ -3,5 +3,6 @@ def aaa(name, age):
     print(age)
 
 
-aaa('john', 30)
+aaa('john', 30) 
 aaa('kelly', 32)
+
