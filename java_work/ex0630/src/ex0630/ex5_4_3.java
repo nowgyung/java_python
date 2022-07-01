@@ -13,7 +13,7 @@ public class ex5_4_3 {
 		while(num<=1000) {
 			if((num%2==0)&&(num%7==0)) {
 				search  = true;
-				
+				break;
 			}
 			num++;
 		}
