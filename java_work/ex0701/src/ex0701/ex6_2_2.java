@@ -1,9 +1,9 @@
--package ex0701;
+package ex0701;
 
 public class ex6_2_2 {
 	
 	public static void main(String[] args) {
-		prime(5); 
+		prime(); 
 		
 	}
 	
