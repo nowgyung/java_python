@@ -27,7 +27,6 @@ for i in range(10):
 print(st)
 print()
 #문제5
-st=[1,2,3,4,5,6]
 tmp=1
 st[0]=st[5]
 st[5]=tmp
