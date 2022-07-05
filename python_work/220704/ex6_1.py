@@ -57,7 +57,7 @@ for i in range(1,11):
 for i in range(10,0,-1):
     list.remove(i)
     print(list)
-#문제5
+#문제6
 '''
 >>> st=[1,2]
 >>> st[3:]=[3,4,5]
