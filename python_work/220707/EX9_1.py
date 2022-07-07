@@ -17,7 +17,7 @@
 
 ds = "Hello"
 def to_list(ds):
-    dss = list(ds)
+    dss = list(ds) #어딘가 넣어야 값이 변화
     print(dss)
 
 to_list(ds)
