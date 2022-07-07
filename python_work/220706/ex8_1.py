@@ -17,14 +17,11 @@
 # main()
 
 #문제3
-def main():
-    num  = 0
-    number = 0
-    while num < 100 & number == 63 :
-        number += num
-        num += 1
-        print(3 * num / 2)
-        
-       
+#문제3
 
-main()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+num  = 0
+number = 0
+while number != 63: 
+    num +=1
+    number = 3* num / 2
+print(num)

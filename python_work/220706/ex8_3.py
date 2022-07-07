@@ -13,8 +13,23 @@
 
 #문자3
 i = 2
-while i < 100:
-    i = i%2!=0 
-    print(i, end = '')
-    break
-i += 1
+j = 0
+jlist =[]
+while 2 <= i and i < 100:
+    #print("i = ",i)
+    i += 1
+    if  i%2!=0 and i%3!=0:
+        print(i,end=" ")
+        #jlist.append(i)
+
+#print(jlist), #end =  " ")
+
+# def main():
+#     i = 0
+#     j = 0
+#     while 2 <= i & i < 100:
+#         if i%2!=0 and i%3!=0:
+#             print(i)
+#         i += 1
+
+# main() 
