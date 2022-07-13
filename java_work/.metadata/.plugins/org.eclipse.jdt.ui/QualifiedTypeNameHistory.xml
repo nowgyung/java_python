@@ -6,9 +6,9 @@
     <fullyQualifiedTypeName name="aa.AAA"/>
     <fullyQualifiedTypeName name="bb.AAA"/>
     <fullyQualifiedTypeName name="cc.AAA"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ZOO.Dog"/>
     <fullyQualifiedTypeName name="ex0708.EX02"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
