@@ -11,4 +11,8 @@
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ex0715.UniFriend"/>
+    <fullyQualifiedTypeName name="ex0715.CompFriend"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="ex0715.Printable"/>
 </qualifiedTypeNameHistroy>

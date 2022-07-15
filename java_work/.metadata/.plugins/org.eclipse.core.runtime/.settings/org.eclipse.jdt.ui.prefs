@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="bb.AAA"><rhs name\="bb.AAA"/></lhs><lhs name\="cc.AAA"><rhs name\="cc.AAA"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="bb.AAA"><rhs name\="bb.AAA"/></lhs><lhs name\="cc.AAA"><rhs name\="cc.AAA"/></lhs><lhs name\="ex0715.UniFriend"><rhs name\="ex0715.UniFriend"/></lhs><lhs name\="ex0715.CompFriend"><rhs name\="ex0715.CompFriend"/></lhs></history>
 content_assist_number_of_computers=17
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0

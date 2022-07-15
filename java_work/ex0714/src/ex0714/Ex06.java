@@ -35,6 +35,7 @@ public class Ex06 {
 			ab.doB();
 		}
 		ACake ac3 = (ACake) cake[2];
+		BCake ac4 = (BCake) cake[2];
 		//ACake ac4 = (BCake) cake[2]; // 안에 ACake가 들어있기에 할수없다 뜬다, 예외상황 강제종료
 		
 	}

@@ -1,7 +1,7 @@
 package ex0714;
 
 public class Phone {
-	private String num;
+	protected String num;
 	
 	public Phone(String num) {
 		this.num = num;
