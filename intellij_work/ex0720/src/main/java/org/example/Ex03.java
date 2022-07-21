@@ -14,9 +14,7 @@ class Person implements Cloneable{
     }
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        Person p1 = (Person) super.clone();
-        p1.name = new String(name);
-        return p1;
+        return super.clone();
     }
 }
 public class Ex03 {
