@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Arrays;
 
-public class ex05 {
+public class Ex05 {
     public static void main(String[] args) {
         int a[] = {10, 20, 30, 40, 50};
         int b[] = Arrays.copyOf(a, 3); // a의 내용을 3개만 카피
