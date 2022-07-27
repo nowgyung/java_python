@@ -1,5 +1,5 @@
 package org.example;
-//데이터 테이블을 나타내는 ?
+//데이터 테이블을 나타내는 ? map - key값(email..)을 가지고 있는
 public class MemberDto {
 
     private int index;
