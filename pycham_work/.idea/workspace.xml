@@ -2,33 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f6736b-d705-4f18-b19f-5ce05de94608" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/ImportConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mldl/chap6/calre.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mldl/chap6/ex04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ExME2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ExME2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/ClassConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/ClassConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/ClassConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/ClassConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/MemberDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/MemberDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/MemberService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.core.resources/.projects/ex0623/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.core.resources/.projects/ex0623/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.bak_0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.bak_0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/version.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +202,7 @@
       <workItem from="1658725848135" duration="7960000" />
       <workItem from="1658791661055" duration="43000" />
       <workItem from="1658791713715" duration="11506000" />
-      <workItem from="1658878488691" duration="8774000" />
+      <workItem from="1658878488691" duration="9425000" />
     </task>
     <servers />
   </component>

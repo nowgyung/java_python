@@ -13027,3 +13027,127 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 2 2022-07-27 17:06:12.705
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.env.IModule.isAutomatic()" because "module" is null
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryModuleBinding.create(BinaryModuleBinding.java:99)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:65)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModuleFromAnswer(LookupEnvironment.java:437)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:374)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:236)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:114)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:248)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypeFor(BinaryTypeBinding.java:1868)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.getField(BinaryTypeBinding.java:1485)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findField(Scope.java:1433)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findField(Scope.java:1379)
+	at org.eclipse.jdt.internal.compiler.lookup.MethodScope.findField(MethodScope.java:471)
+	at org.eclipse.jdt.internal.compiler.lookup.BlockScope.getBinding(BlockScope.java:616)
+	at org.eclipse.jdt.internal.compiler.ast.QualifiedNameReference.resolveType(QualifiedNameReference.java:1029)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:739)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1113)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:661)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:388)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:570)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1503)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1628)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:667)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:905)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:145)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.core.resources 4 75 2022-07-27 17:06:12.708
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2022-07-27 17:06:12.708
+!MESSAGE Errors running builder 'Java Builder' on project 'exME'.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.env.IModule.isAutomatic()" because "module" is null
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryModuleBinding.create(BinaryModuleBinding.java:99)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:65)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModuleFromAnswer(LookupEnvironment.java:437)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:374)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:236)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:114)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:248)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypeFor(BinaryTypeBinding.java:1868)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.getField(BinaryTypeBinding.java:1485)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findField(Scope.java:1433)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findField(Scope.java:1379)
+	at org.eclipse.jdt.internal.compiler.lookup.MethodScope.findField(MethodScope.java:471)
+	at org.eclipse.jdt.internal.compiler.lookup.BlockScope.getBinding(BlockScope.java:616)
+	at org.eclipse.jdt.internal.compiler.ast.QualifiedNameReference.resolveType(QualifiedNameReference.java:1029)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:739)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1113)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:661)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:388)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:570)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1503)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1628)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:667)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:905)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:145)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.core.resources 4 2 2022-07-27 17:06:38.600
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.env.IModule.isAutomatic()" because "module" is null
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryModuleBinding.create(BinaryModuleBinding.java:99)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:65)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModuleFromAnswer(LookupEnvironment.java:437)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:374)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:236)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:114)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:248)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypeFor(BinaryTypeBinding.java:1868)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.getField(BinaryTypeBinding.java:1485)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findField(Scope.java:1433)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findField(Scope.java:1379)
+	at org.eclipse.jdt.internal.compiler.lookup.MethodScope.findField(MethodScope.java:471)
+	at org.eclipse.jdt.internal.compiler.lookup.BlockScope.getBinding(BlockScope.java:616)
+	at org.eclipse.jdt.internal.compiler.ast.QualifiedNameReference.resolveType(QualifiedNameReference.java:1029)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:739)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1113)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:661)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:388)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:570)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1503)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1628)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:667)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:905)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:145)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.core.resources 4 75 2022-07-27 17:06:38.603
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2022-07-27 17:06:38.603
+!MESSAGE Errors running builder 'Java Builder' on project 'exME'.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.env.IModule.isAutomatic()" because "module" is null
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryModuleBinding.create(BinaryModuleBinding.java:99)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:65)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModuleFromAnswer(LookupEnvironment.java:437)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:374)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:236)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:114)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:248)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypeFor(BinaryTypeBinding.java:1868)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.getField(BinaryTypeBinding.java:1485)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findField(Scope.java:1433)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findField(Scope.java:1379)
+	at org.eclipse.jdt.internal.compiler.lookup.MethodScope.findField(MethodScope.java:471)
+	at org.eclipse.jdt.internal.compiler.lookup.BlockScope.getBinding(BlockScope.java:616)
+	at org.eclipse.jdt.internal.compiler.ast.QualifiedNameReference.resolveType(QualifiedNameReference.java:1029)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:739)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:1113)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:661)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:388)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:570)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1503)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1628)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:667)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:905)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:145)
+	at java.base/java.lang.Thread.run(Thread.java:833)
