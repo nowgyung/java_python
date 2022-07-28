@@ -1,23 +1,26 @@
 package org.example;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class MemberService {
 
+    @Autowired
     private MemberDao memberDao;//이것이 프로퍼티
+    @Autowired
     private MemberPrinter memberPrinter; // 세터 생성, 클래스만들(3가지생성),
 
-    public void setMemberPrinter(MemberPrinter memberPrinter) {
-        this.memberPrinter = memberPrinter;
-    }
 
-    public MemberService(){};
-
-    public MemberService(MemberDao memberDao) {
-        this.memberDao = memberDao;
-    }
-//생성자에 의한
-    public void setMemberDao(MemberDao memberDao) { this.memberDao = memberDao;
-        //세터방식에 의한
-    }
+//    public void setMemberPrinter(MemberPrinter memberPrinter) {
+//        this.memberPrinter = memberPrinter;
+//    }
+//    public MemberService(){};
+//    public MemberService(MemberDao memberDao) {
+//        this.memberDao = memberDao;
+//    }
+////생성자에 의한
+//    public void setMemberDao(MemberDao memberDao) { this.memberDao = memberDao;
+//        //세터방식에 의한
+//    }
     public void list() {
         memberDao.selectAll(); //selectAll호출
     }
@@ -34,4 +37,12 @@ public class MemberService {
             memberDao.insert(dto);
 
     }
+    public void change(MemberDto dto) throws Exception {
+        String result = memberDao.getSelectByPwd(dto.getPwd());
+        if(result.equals("oldpwd"))
+            throw  new Exception();
+        else memberDao.newpwd(dto);
+    }
+
+
 }

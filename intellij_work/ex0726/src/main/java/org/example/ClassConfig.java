@@ -24,8 +24,8 @@ public class ClassConfig {
     @Bean
     public MemberService memberService() {
     MemberService ms = new MemberService();
-    ms.setMemberDao(memberDao);
-    ms.setMemberPrinter(memberPrinter);
+//    ms.setMemberDao(memberDao);
+//    ms.setMemberPrinter(memberPrinter);
     return ms;
     }
 }

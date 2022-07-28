@@ -2,13 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f6736b-d705-4f18-b19f-5ce05de94608" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/AppCtx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/ChangePwdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/MemberDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/RequestReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/target/classes/org/example/AppCtx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/target/classes/org/example/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex/.idea/Ex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex/Ex1/ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap6/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap6/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap6/c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap6/cvfruits0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap6/ex05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap6/ex06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap6/ex07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap6/fruitslog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap6/pltfruits0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/6.tree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/ClassConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/ClassConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/ClassConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/ClassConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/MemberService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/5.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/version.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,23 +100,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/mhgit/pycham_work/mldl/chap6&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/mhgit/pycham_work/Ex",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\mhgit\pycham_work\mldl\chap6" />
       <recent name="D:\mhgit\pycham_work\mldl\chap5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex04 (1)">
+  <component name="RunManager" selected="Python.ex07">
     <configuration name="calre" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pycham_work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,50 +131,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mldl/chap6/calre.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pycham_work" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mldl/chap6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mldl/chap6/ex01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pycham_work" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mldl/chap6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mldl/chap6/ex02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pycham_work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,12 +169,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mldl/chap5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mldl/chap6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mldl/chap5/fs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mldl/chap6/ex05.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycham_work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mldl/chap6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mldl/chap6/ex06.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycham_work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mldl/chap6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mldl/chap6/ex07.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex07" />
+        <item itemvalue="Python.ex05" />
+        <item itemvalue="Python.ex06" />
         <item itemvalue="Python.ex04 (1)" />
         <item itemvalue="Python.calre" />
-        <item itemvalue="Python.ex02" />
-        <item itemvalue="Python.ex01 (1)" />
-        <item itemvalue="Python.fs" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +250,7 @@
       <workItem from="1658791661055" duration="43000" />
       <workItem from="1658791713715" duration="11506000" />
       <workItem from="1658878488691" duration="9425000" />
+      <workItem from="1658965204899" duration="10379000" />
     </task>
     <servers />
   </component>
@@ -213,13 +261,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pycham_work$ex05.coverage" NAME="ex05 커버리지 결과" MODIFIED="1658990502998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
     <SUITE FILE_PATH="coverage/pycham_work$ex02.coverage" NAME="ex02 커버리지 결과" MODIFIED="1658818626358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
     <SUITE FILE_PATH="coverage/pycham_work$ex03.coverage" NAME="ex03 Coverage Results" MODIFIED="1658728254218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap5" />
     <SUITE FILE_PATH="coverage/pycham_work$calre.coverage" NAME="calre 커버리지 결과" MODIFIED="1658899814226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
-    <SUITE FILE_PATH="coverage/pycham_work$ex04__1_.coverage" NAME="ex04 (1) 커버리지 결과" MODIFIED="1658906129303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
+    <SUITE FILE_PATH="coverage/pycham_work$ex04__1_.coverage" NAME="ex04 (1) 커버리지 결과" MODIFIED="1658981766784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
     <SUITE FILE_PATH="coverage/pycham_work$ex01__1_.coverage" NAME="ex01 (1) 커버리지 결과" MODIFIED="1658812670256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
     <SUITE FILE_PATH="coverage/pycham_work$ex01.coverage" NAME="ex01 Coverage Results" MODIFIED="1658725222924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap5" />
     <SUITE FILE_PATH="coverage/pycham_work$ex04.coverage" NAME="ex04 Coverage Results" MODIFIED="1658734661786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap5" />
     <SUITE FILE_PATH="coverage/pycham_work$fs.coverage" NAME="fs 커버리지 결과" MODIFIED="1658810426170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap5" />
+    <SUITE FILE_PATH="coverage/pycham_work$ex06.coverage" NAME="ex06 커버리지 결과" MODIFIED="1658985079978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
+    <SUITE FILE_PATH="coverage/pycham_work$ex07.coverage" NAME="ex07 커버리지 결과" MODIFIED="1658990680040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
   </component>
 </project>

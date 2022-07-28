@@ -32,4 +32,16 @@ public class MemberDao {
             return "donthave";
 
     }
+    public  String getSelectByPwd(String pwd){
+        MemberDto dto = data.get(pwd);
+        if(dto.oldpwd == pwd)
+            return "oldpwd";
+        else
+            return "newpwd";
+    }
+
+    public void newpwd(MemberDto dto) {
+        data.put(dto.newpwd(),dto);
+
+    }
 }

@@ -21,6 +21,16 @@ public class Main {
         }
 
     }
+    private static void updatecommand(String email, String oldpwd, String newpwd) {
+        MemberService memberService =  acac.getBean(MemberService.class);
+        try{
+            memberService.change( );
+        }catch (Exception e){
+            System.out.println("pwd");
+        }
+
+    }
+
 
     public static void main(String[] args) throws IOException {
 
@@ -33,7 +43,7 @@ public class Main {
 
         try {
             while (true) {
-                System.out.println("1. list 2.new 3.Exit");
+                System.out.println("1. list 2.new 3.update 4.Exit");
                 String cmd = br.readLine();
                 if(cmd.equalsIgnoreCase("list")){//대소문자 관계없이 확인
                     listCommand(); // 리스트출력
@@ -50,6 +60,18 @@ public class Main {
                         newCommand(md);
                     }catch(IndexOutOfBoundsException ie){
                         System.out.println("new aa@naver.com 김길동 1234 \n이렇게 입력하세요");
+                    }
+                }
+                else if (cmd.startsWith("update")){
+                    //update aa@naver.com 1234 5678
+                    try{
+                        String email = cmd.split(" ")[1];
+                        String oldpwd = cmd.split(" ")[2];
+                        String newpwd = cmd.split(" ")[3];
+                        updatecommand(email, oldpwd, newpwd);
+                    }catch (Exception e){
+                        System.out.println("update aa@naver.com 1234 1234 \n이렇게 입력하세요");
+                        System.out.println(e.toString());
                     }
                 }
                 else if(cmd.equalsIgnoreCase("exit")){
@@ -72,9 +94,6 @@ public class Main {
 //        dao.selectAll();
 //        dao.insert(new MemberDto("박길동", "bbb@naver.com", "1234"));
 //        dao.selectAll();
-
-
-
 
     }
 }
