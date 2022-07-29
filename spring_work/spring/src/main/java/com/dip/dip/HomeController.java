@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.dip.dip.member.MemberDao;
-
+//homecotroller가 젤 먼저
 /**
  * Handles requests for the application home page.
  */
@@ -44,9 +44,9 @@ public class HomeController {
 	}
 	@GetMapping("/hello") //url주소가 헬로우로 들어오면
 	public String hello() {
-		memberdao.doA(); //실행
-		memberdao.doB();
-		return "hello"; // 헬로우.jsp로 가랏
+		memberdao.doA(); //실행 ex insert, select / 해쉬맵이 아니라 데이터 베이스
+		memberdao.doB(); //실행
+		return "hello"; // 헬로우.jsp로 가랏 (hello.jsp 만들어져있어야 함)
 	}
 	
 }

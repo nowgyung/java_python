@@ -104,7 +104,7 @@
 
 				<Context docBase="ex0729" path="/dip" reloadable="true" source="org.eclipse.jst.jee.server:ex0729"/>
 				<Context docBase="spring" path="" reloadable="true" source="org.eclipse.jst.jee.server:spring"/>
-			</Host>
+			<Context docBase="springing" path="/myapp" reloadable="true" source="org.eclipse.jst.jee.server:springing"/></Host>
 		</Engine>
 	</Service>
 </Server>
