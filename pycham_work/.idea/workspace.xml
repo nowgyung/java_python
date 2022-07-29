@@ -2,60 +2,129 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f6736b-d705-4f18-b19f-5ce05de94608" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/AppCtx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/ChangePwdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/MemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/MemberDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/RequestReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/target/classes/org/example/AppCtx.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intellij_work/ex0728/target/classes/org/example/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex/.idea/Ex.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex/Ex1/ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mldl/chap6/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mldl/chap6/b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mldl/chap6/c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mldl/chap6/cvfruits0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mldl/chap6/ex05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mldl/chap6/ex06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mldl/chap6/ex07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mldl/chap6/fruitslog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mldl/chap6/pltfruits0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/6.tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap7/ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap7/ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap7/ex03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap7/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap7/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mldl/chap7/t1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0725/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0725/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/ClassConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/ClassConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/src/main/java/org/example/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/ClassConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/ClassConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0726/target/classes/org/example/MemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0728/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0728/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/AppCtx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij_work/ex0728/src/main/java/org/example/AppCtx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java_work/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/version.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/5.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mldl/chap6/ex05.py" beforeDir="false" afterPath="$PROJECT_DIR$/mldl/chap6/ex05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.bak_0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap02/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap02/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap03/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap03/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap04/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap04/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap05/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap05/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap06/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap06/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap07/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap07/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap08/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap08/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap09/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap09/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap10/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap10/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap11-tag/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap11-tag/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap11/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap11/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap12-bv/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap12-bv/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap12-gl/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap12-gl/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap12/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap12/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap13/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap13/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap14/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap14/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap16/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap16/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap17/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chap17/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chapb/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chapb/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chapc-boot/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chapc-boot/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chapc/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.projects/sp5-chapc/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/6.tree" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/Cloud Foundry.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/Docker.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.frameworks.core.prefs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap02.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap03.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap04.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap05.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap06.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap07.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap08.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap09.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap10.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap11-tag.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap11.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap12-bv.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap12-gl.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap12.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap13.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap14.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap16.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chap17.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chapb.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chapc-boot.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/sp5-chapc.lifecyclemapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.3.20211002-1029.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xls_pyauto_selenium_work/selenium/Ex02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../xls_pyauto_selenium_work/selenium/Ex02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,19 +174,21 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/mhgit/pycham_work/Ex",
+    "last_opened_file_path": "D:/mhgit/pycham_work/mldl/chap7",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mhgit\pycham_work\mldl\chap7" />
       <recent name="D:\mhgit\pycham_work\mldl\chap6" />
       <recent name="D:\mhgit\pycham_work\mldl\chap5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex07">
-    <configuration name="calre" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ex01">
+    <configuration name="ex01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pycham_work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,12 +196,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mldl/chap6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mldl/chap7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mldl/chap6/calre.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mldl/chap7/ex01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +210,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex04 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pycham_work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,12 +218,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mldl/chap6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mldl/chap7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mldl/chap6/ex04.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mldl/chap7/ex02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex01" />
+        <item itemvalue="Python.ex02" />
         <item itemvalue="Python.ex07" />
         <item itemvalue="Python.ex05" />
         <item itemvalue="Python.ex06" />
-        <item itemvalue="Python.ex04 (1)" />
-        <item itemvalue="Python.calre" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +321,8 @@
       <workItem from="1658791661055" duration="43000" />
       <workItem from="1658791713715" duration="11506000" />
       <workItem from="1658878488691" duration="9425000" />
-      <workItem from="1658965204899" duration="10379000" />
+      <workItem from="1658965204899" duration="10659000" />
+      <workItem from="1659051087662" duration="12269000" />
     </task>
     <servers />
   </component>
@@ -262,12 +334,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pycham_work$ex05.coverage" NAME="ex05 커버리지 결과" MODIFIED="1658990502998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
-    <SUITE FILE_PATH="coverage/pycham_work$ex02.coverage" NAME="ex02 커버리지 결과" MODIFIED="1658818626358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
+    <SUITE FILE_PATH="coverage/pycham_work$ex02.coverage" NAME="ex02 커버리지 결과" MODIFIED="1659077973185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap7" />
     <SUITE FILE_PATH="coverage/pycham_work$ex03.coverage" NAME="ex03 Coverage Results" MODIFIED="1658728254218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap5" />
     <SUITE FILE_PATH="coverage/pycham_work$calre.coverage" NAME="calre 커버리지 결과" MODIFIED="1658899814226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
     <SUITE FILE_PATH="coverage/pycham_work$ex04__1_.coverage" NAME="ex04 (1) 커버리지 결과" MODIFIED="1658981766784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
     <SUITE FILE_PATH="coverage/pycham_work$ex01__1_.coverage" NAME="ex01 (1) 커버리지 결과" MODIFIED="1658812670256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />
-    <SUITE FILE_PATH="coverage/pycham_work$ex01.coverage" NAME="ex01 Coverage Results" MODIFIED="1658725222924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap5" />
+    <SUITE FILE_PATH="coverage/pycham_work$ex01.coverage" NAME="ex01 커버리지 결과" MODIFIED="1659078795926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap7" />
     <SUITE FILE_PATH="coverage/pycham_work$ex04.coverage" NAME="ex04 Coverage Results" MODIFIED="1658734661786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap5" />
     <SUITE FILE_PATH="coverage/pycham_work$fs.coverage" NAME="fs 커버리지 결과" MODIFIED="1658810426170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap5" />
     <SUITE FILE_PATH="coverage/pycham_work$ex06.coverage" NAME="ex06 커버리지 결과" MODIFIED="1658985079978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mldl/chap6" />

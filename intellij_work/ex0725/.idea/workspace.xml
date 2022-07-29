@@ -5,23 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13a66120-5f3d-474e-b13c-0a081cc8f1af" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../ExME2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExME2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExME2/src/main/java/org/example/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExME2/src/main/java/org/example/ArrayUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0726/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0726/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0728/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0728/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0728/src/main/java/org/example/AppCtx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0728/src/main/java/org/example/AppCtx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java_work/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_work/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.core.resources/.projects/ex0623/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.core.resources/.projects/ex0623/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java_work/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_work/.metadata/version.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../pycham_work/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pycham_work/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/6.tree" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring_work/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xls_pyauto_selenium_work/selenium/Ex02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../xls_pyauto_selenium_work/selenium/Ex02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/mhgit/intellij_work/ex0725"
+    "last_opened_file_path": "D:/mhgit/intellij_work/ex0721"
   }
 }]]></component>
   <component name="RunManager" selected="애플리케이션.org.example.member.Main">

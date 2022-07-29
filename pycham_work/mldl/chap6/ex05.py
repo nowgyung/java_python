@@ -55,3 +55,4 @@ print('----------')
 pred = lr.predict(a.reshape(-1,10000))
 print(pred)
 print('----------')
+

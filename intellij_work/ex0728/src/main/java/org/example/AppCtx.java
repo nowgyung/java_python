@@ -22,15 +22,13 @@ public class AppCtx {
 
     @Bean
     @Qualifier("memberdao1")
-    public  MemberDao memberDao1(){
+    public MemberDao memberDao1(){
         return new MemberDao();
+    }
 
-//        @Bean
-//
-//        public  MemberDao memberDao2(){
-//            return new MemberDao();
-
-
+    @Bean
+    public MemberDao memberDao2(){
+        return new MemberDao();
 
     }
 
