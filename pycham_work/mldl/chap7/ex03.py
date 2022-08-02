@@ -3,7 +3,6 @@ import cv2
 
 def gabang():
     gabang = cv2.imread('gabang.png', cv2.IMREAD_GRAYSCALE)
-    print(gabang.shape)
     return gabang
 
 

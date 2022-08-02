@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="324d6646-7dbb-472c-9772-473562c7feee" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../ExME2/src/main/java/org/example/DuplicateMemberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExME2/src/main/java/org/example/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExME2/src/main/java/org/example/MemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExME2/src/main/java/org/example/MemberRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExME2/src/main/java/org/example/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExME2/src/main/java/org/example/spring/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExME2/src/main/java/org/example/spring/MemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExME2/src/main/java/org/example/spring/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExME2/src/main/java/org/example/spring/WrongIdPasswordException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExME2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExME2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex0720/.idea/ex0720.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex0720/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_work/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../pycham_work/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pycham_work/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
