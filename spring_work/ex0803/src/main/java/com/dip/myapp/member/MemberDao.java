@@ -17,12 +17,6 @@ public class MemberDao {
 	private JdbcTemplate jdbcTemplate;
 
 	public void insert(MemberDto memberDto) {
-//		jdbcTemplate.update(new PreparedStatementCreator() {
-//			@Override
-//			public PreparedStatement createPreparedStatement(Connection con) throws SQLException {
-//				return null;
-//			}
-//		});
 		jdbcTemplate.update((con)->{
 			PreparedStatement pstmt = 
 					con.prepareStatement("insert into member"
