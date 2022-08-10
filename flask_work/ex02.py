@@ -1,4 +1,3 @@
-from cProfile import label
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.neighbors import KNeighborsRegressor
@@ -44,4 +43,4 @@ plt.scatter(x_train[:,0],x_train[:,1],label='x_train[:,0], x_train[:,1]')
 plt.scatter(3,3)
 for count, x in enumerate(x_train):
     plt.text(x[0]+0.1,x[1]+0.1,y_train[count])
-plt.savefig('x0_x1_y4.png')
+# plt.savefig('x0_x1_y4.png')
