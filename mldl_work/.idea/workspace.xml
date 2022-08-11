@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7380936b-d4d6-4741-909f-bd7bf830333b" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/out/artifacts/org_jar/org.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/out/artifacts/org_jar2/org.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/src/main/java/com/dip/org/OrgApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/src/main/java/com/dip/org/components/AA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/src/main/java/com/dip/org/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/src/main/java/com/dip/org/controller/MemberRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/src/main/java/com/dip/org/dto/MemberDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/src/main/resources/mybatis/mapper/MemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/src/main/resources/templates/member.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220810/org/src/test/java/com/dip/org/OrgApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220811/org/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220811/org/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220811/org/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220811/org/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220811/org/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220811/org/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220811/org/src/main/java/com/dip/org/OrgApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220811/org/src/main/java/com/dip/org/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220811/org/src/main/java/com/dip/org/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220811/org/src/main/java/com/dip/org/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220811/org/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_work/220811/org/src/test/java/com/dip/org/OrgApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigdata_image_work/220809/ex11.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bigdata_image_work/220809/ex11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask_work/ex05.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_work/ex05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask_work/static/car/joong_ka_bae.png" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_work/static/car/joong_ka_bae.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask_work/templates/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_work/templates/car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.core.resources/.projects/ex0623/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.core.resources/.projects/ex0623/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../java_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_work/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_work/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/out/artifacts/org_jar/org.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/out/artifacts/org_jar2/org.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/src/main/java/com/dip/org/OrgApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/src/main/java/com/dip/org/components/AA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/src/main/java/com/dip/org/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/src/main/java/com/dip/org/controller/MemberRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/src/main/java/com/dip/org/dto/MemberDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/src/main/resources/mybatis/mapper/MemberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/src/main/resources/templates/member.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/org/src/test/java/com/dip/org/OrgApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DCWtkEjqBUo74S1UFH7YwcLSz1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/mhgit/pycham_work"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="7380936b-d4d6-4741-909f-bd7bf830333b" name="변경" comment="" />
+      <created>1660203763602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660203763602</updated>
+      <workItem from="1660203764973" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
