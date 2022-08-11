@@ -31,3 +31,6 @@ plt.show()
 # a_jpg[ya_] = [0,0,255]
 # plt.imshow(a_jpg)
 # plt.show()
+
+#[0 29 55]
+test = img[:,:,1]
