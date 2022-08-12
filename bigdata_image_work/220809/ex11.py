@@ -33,4 +33,4 @@ plt.show()
 # plt.show()
 
 #[0 29 55]
-test = img[:,:,1]
+# test = img[:,:,1]
