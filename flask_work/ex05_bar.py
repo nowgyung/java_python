@@ -28,8 +28,8 @@ plt.bar(dt.index.to_numpy(),bae,width=0.3, alpha=0.8, label='배기량', bottom=
 plt.title('년식별 중량,가격,배기량')
 plt.legend()
 plt.grid()
-# plt.tight_layout()
-plt.show()
+# plt.tight_layout() 
+# plt.show()
 
 plt.savefig('./static/car/joong_ka_bae.png')
 
