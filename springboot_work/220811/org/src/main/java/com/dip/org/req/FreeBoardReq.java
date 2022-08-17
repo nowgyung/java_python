@@ -8,6 +8,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 import javax.validation.constraints.NotEmpty;
+import java.time.LocalDateTime;
 
 
 @Getter
@@ -22,9 +23,9 @@ public class FreeBoardReq {
     @NotEmpty
     private String content;
 
-    private String filname; // 파일 업로드
+    private String filename; // 파일 업로드
     private int hits; //
 
-    private String regdate;
+    private LocalDateTime regdate;
 
 }

@@ -6,6 +6,7 @@ package com.dip.org.entity;
 import lombok.*;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 @Getter
@@ -26,6 +27,6 @@ public class FreeBoard {
     private String filename;
     private int hits;
 
-    private String regdate;
+    private LocalDateTime regdate;
 
 }

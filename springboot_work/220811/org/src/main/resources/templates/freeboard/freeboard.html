@@ -39,11 +39,10 @@
                 <td th:text="${freeboard.title}">Mark</td>
                 <td th:text="${freeboard.hits}">Otto</td>
                 <td th:text="${freeboard.filename}">@mdo</td>
-                <td th:text="${freeboard.regdate}">@mdo</td>
+                <td th:text="|${#temporals.format(freeboard.regdate, 'yyyy-MM-dd')}|">@mdo</td>
             </tr>
             </tbody>
         </table>
     </div>
 </div>
-
 </html>

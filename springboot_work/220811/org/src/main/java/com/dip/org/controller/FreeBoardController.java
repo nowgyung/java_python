@@ -10,8 +10,11 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.Valid;
+import java.io.File;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -29,7 +32,7 @@ public class FreeBoardController {
                         .id(1L) //long타입의 숫자 1
                         .title("제목제목")
                         .content("내용")
-                        .regdate(LocalDateTime.now().toString())
+                        .regdate(LocalDateTime.now())
                         .build()
         );
         freeBoardService.regist(
@@ -37,7 +40,7 @@ public class FreeBoardController {
                         .id(2L) //long타입의 숫자 1
                         .title("123제목제목")
                         .content("123내용")
-                        .regdate(LocalDateTime.now().toString())
+                        .regdate(LocalDateTime.now())
                         .build()
         ); // 페이지 첫화면을 위해서 인위적으로 적은것 사용자에게 폼으로 정보 얻은것 아님
 
@@ -51,13 +54,14 @@ public class FreeBoardController {
     }
 
     @GetMapping("freeboard/write")
-    public String write() {
+    public String write(FreeBoardReq freeBoardReq) {
         return "freeboard/write";
     }
 
     @PostMapping("freeboard/write")
-    public String pwrite(@Valid FreeBoardReq freeBoardReq, BindingResult bindingResult) {
-        if (bindingResult.hasErrors()) {
+    public String pwrite(@Valid FreeBoardReq freeBoardReq, BindingResult bindingResult,@RequestParam(value = "file",required = false) MultipartFile file){
+
+        if(bindingResult.hasErrors()){
             return "freeboard/write";
         }
         freeBoardService.regist(
@@ -65,10 +69,16 @@ public class FreeBoardController {
                         .id(-1L)
                         .content(freeBoardReq.getContent())
                         .title(freeBoardReq.getTitle())
-                        .regdate(LocalDateTime.now().toString())
+                        .regdate(LocalDateTime.now())
                         .build()
         );
 
+        String fileName = file.getOriginalFilename();
+        try {
+            file.transferTo( new File("D:\\upload\\" + fileName));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return "redirect:/freeboard"; // 셀렉트페이지로 가도록
     }
 
