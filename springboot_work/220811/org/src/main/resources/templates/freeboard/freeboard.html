@@ -36,13 +36,14 @@
             <tbody>
             <tr th:each="freeboard:${list}">
                 <th scope="row" th:text="${freeboard.id}">1</th>
-                <td th:text="${freeboard.title}">Mark</td>
+                <td><a href="#" th:href="@{/freeboard/view(id=${freeboard.id})}" th:text="${freeboard.title}">내용</a></td>
                 <td th:text="${freeboard.hits}">Otto</td>
                 <td th:text="${freeboard.filename}">@mdo</td>
                 <td th:text="|${#temporals.format(freeboard.regdate, 'yyyy-MM-dd')}|">@mdo</td>
             </tr>
             </tbody>
         </table>
+<!--        <img th:src="@{/img/capture.png}" src="">-->
     </div>
 </div>
 </html>

@@ -10,7 +10,7 @@ from sklearn.neighbors import KNeighborsRegressor
 app = Blueprint("myfile", __name__)
 
 
-@app.route("/filedown/<OX>")
+@app.route("/filedown/<ox>")
 def filedownOX(ox):
     if 'o' in ox:
         return send_file('./static/img/x_data[0]_cv.png', as_attachment=True)

@@ -31,5 +31,5 @@ plt.grid()
 # plt.tight_layout() 
 # plt.show()
 
-plt.savefig('./static/car/joong_ka_bae.png')
+plt.savefig('./static/car/bar_jkb.png')
 
