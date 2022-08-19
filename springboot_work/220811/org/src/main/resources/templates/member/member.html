@@ -3,8 +3,11 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="~{layout/layout}">
 
-<div layout:fragment="content" class="p-3">
-    <h1>member</h1>
+<div layout:fragment="content" class="border border-2 m-3 p-3">
+    <h1>Member</h1>
+    <p>
+        회원 등록을 하는 공간입니다.
+    </p>
     <div class="d-flex justify-content-center">
         <div class="w-75 p-3 " style="color:black; background-color:#eee; border-radius:5px"> <!-- width-->
             <form method="post" action="/member/insert">
@@ -12,6 +15,8 @@
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+
+
             </div>
             <div class="mb-3">
                 <label for="remark" class="form-label">Example textarea</label>
@@ -23,7 +28,8 @@
                 <option value="female">female</option>
             </select>
                 <div class="d-flex justify-content-center p-3">
-                <input class="btn btn-secondary" type="submit" value="submit">
+                <input class="btn btn-outline-success" type="submit" value="submit">
+                    <a href="/" class="btn btn-outline-success ">Home</a>
                     </div>
             </form>
         </div>

@@ -7,6 +7,7 @@ import com.dip.org.repository.FreeBoardTailRepository;
 import com.dip.org.req.FreeBoardReq;
 import com.dip.org.req.FreeBoardTailReq;
 import com.dip.org.service.FreeBoardService;
+import lombok.Getter;
 import net.bytebuddy.asm.Advice;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.io.File;
 import java.nio.file.Files;
@@ -35,6 +37,13 @@ public class FreeBoardController {
 
     @Autowired
     private FreeBoardTailRepository freeBoardTailRepository;
+
+
+    @GetMapping("freeboard/delete")
+    public String delete(long id){
+        freeBoardRepository.deleteById(id);
+        return "redirect:/freeboard";
+    }
 
     @GetMapping("freeboard")
     public String freeboard(Model model) {
@@ -65,41 +74,59 @@ public class FreeBoardController {
         return "freeboard/freeboard"; //freeboard 안에가면 freeboard폴더 안에있는 freeboard가 나오도록
     }
 
-    @GetMapping("freeboard/write")
-    public String write(FreeBoardReq freeBoardReq) {
-        return "freeboard/write";
-    }
-
     @GetMapping("freeboard/view")
-    public String view(long id, Model model){
-        System.out.println(id);
+    public String view(long id, Model model, HttpServletRequest request){
         FreeBoard freeBoard = freeBoardRepository.findById(id).orElse(new FreeBoard()); // 해당 id에 있는 데이터를 가져, 없으면 빈 객체생성해서 넣
-        System.out.println(freeBoard);
+
+        freeBoard.setHits(freeBoard.getHits()+1);//hits수 올리기
+        freeBoardRepository.save(freeBoard); //자동으로 update 구문 생성
+
         model.addAttribute("freeboard", freeBoard);
         return "freeboard/view";
     }
 
     @PostMapping("freeboard/view")
     public String pview(long id, Model model, FreeBoardTailReq freeBoardTailReq){
-        System.out.println(id);
-        FreeBoard freeBoard = freeBoardRepository.findById(id).orElse(new FreeBoard()); // 해당 id에 있는 데이터를 가져, 없으면 빈 객체생성해서 넣
-        System.out.println(freeBoard);
-        System.out.println(freeBoardTailReq);
-        model.addAttribute("freeboard", freeBoard);
 
+        FreeBoard freeBoard = freeBoardRepository.findById(id).orElse(new FreeBoard());
         freeBoardTailRepository.save(
                 FreeBoardTail.builder()
-                        .board_id(freeBoardTailReq.getId())
+                        .freeboard(freeBoard)
                         .t_content(freeBoardTailReq.getT_content())
                         .t_name(freeBoardTailReq.getT_name())
                         .build()
         );
 
-        return "freeboard/view";
+         // 해당 id에 있는 데이터를 가져, 없으면 빈 객체생성해서 넣
+        model.addAttribute("freeboard", freeBoard);
+
+        return "redirect:/freeboard/view?id="+id;
+    }
+
+    @GetMapping("freeboard/write")
+    public String write(FreeBoardReq freeBoardReq, @RequestParam(required = false) String id) {
+        System.out.println(id);
+//  id값이 null이면(새로운 글 쓰는 상황) insert id값이 숫자로 있으면(있는 글 수정하는 상황) update해야하는 상황
+
+        try{
+            if (id !=null && !id.equals("")){
+                FreeBoard freeBoard
+                        = freeBoardRepository.findById(Long.parseLong(id)).orElse(new FreeBoard());
+                freeBoardReq.setTitle(freeBoard.getTitle());
+                freeBoardReq.setContent(freeBoard.getContent());
+            }
+        }catch (Exception e){
+            e. printStackTrace();
+
+        }
+        return "freeboard/write";
     }
 
     @PostMapping("freeboard/write")
-    public String pwrite(@Valid FreeBoardReq freeBoardReq, BindingResult bindingResult,@RequestParam(value = "file",required = false) MultipartFile file) {
+    public String pwrite(@Valid FreeBoardReq freeBoardReq,
+                         BindingResult bindingResult,
+                         @RequestParam("file") MultipartFile file,
+                         @RequestParam(required = false) String id) {
 
         if (bindingResult.hasErrors()) {
             return "freeboard/write";
@@ -122,16 +149,28 @@ public class FreeBoardController {
                 return "freeboard/write";
             }
         }
-
-        freeBoardService.regist(
-                FreeBoard.builder()
-//                        .id(-1L)
-                        .content(freeBoardReq.getContent())
-                        .title(freeBoardReq.getTitle())
-                        .regdate(LocalDateTime.now())
-                        .filename(fileName)
-                        .build()
-        );
+//        freeBoardReq.getId() 있으면 save() 함수 호출 시 update구문이 자동으로 실행
+//        freeBoardReq.getId() 없으면 save() 함수 호출 시 insert구문이 자동으로 실행행
+        if (id !=null && !id.equals("")) {
+            freeBoardService.regist(
+                    FreeBoard.builder()
+                            .id(Long.parseLong(id))
+                            .content(freeBoardReq.getContent())
+                            .title(freeBoardReq.getTitle())
+                            .regdate(LocalDateTime.now())
+                            .filename(fileName)
+                            .build()
+            );
+        }else {
+            freeBoardService.regist(
+                    FreeBoard.builder()
+                            .content(freeBoardReq.getContent())
+                            .title(freeBoardReq.getTitle())
+                            .regdate(LocalDateTime.now())
+                            .filename(fileName)
+                            .build()
+            );
+        }
 
         return "redirect:/freeboard";
     }

@@ -1,6 +1,5 @@
 package com.dip.org.entity;
 
-
 //table 정의
 
 import lombok.*;
@@ -17,24 +16,23 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class FreeBoard {
-    @Id
-    @Column(name = "id", nullable = false)
-    @GeneratedValue(strategy = GenerationType.TABLE)
-    private Long id;
+	@Id
+	@Column(name = "id", nullable = false)
+	@GeneratedValue(strategy = GenerationType.TABLE)
+	private Long id;
 
-    private String title;
+	private String title;
 
-    @Column(columnDefinition = "TEXT")
+	@Column(columnDefinition = "TEXT")
 
-    private String content;
+	private String content;
 
-    private String filename;
-    private int hits;
+	private String filename;
+	private int hits;
 
-    private LocalDateTime regdate;
+	private LocalDateTime regdate;
 
-    @OneToMany(fetch=FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinColumn(name = "board_id")
-    private List<FreeBoardTail> list;
+	@OneToMany(mappedBy = "freeboard", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	private List<FreeBoardTail> list;
 
 }

@@ -35,14 +35,20 @@ def hi():
 @app.route("/member")
 def memeber():
     db = pymysql.connect(
-        host="localhost",  # 로컬이나 컴퓨터 ip주소
-        user='root',
-        password='1234',
-        charset='utf8',
-        database='python')
+                host="localhost", 
+                user='do1',
+                password='do1',
+                charset='utf8',
+                database='python')
     cur = db.cursor()
-    cur.execute("select * from member")
-    rs = cur.fetchall()
+    try:
+        cur.execute("select * from member")
+        rs = cur.fetchall()
+    except Exception as e:
+            print(e)
+    finally:
+        db.commit()
+        cur.close()
     return render_template("member.html", rs=rs)
 
 
@@ -52,18 +58,17 @@ def memebrform():
         print('get')
         pass
     elif request.method == 'POST':
+        db = pymysql.connect(
+                host="localhost", 
+                user='do1',
+                password='do1',
+                charset='utf8',
+                database='python')
+        cur = db.cursor()
         try:
             email = request.form['email']
             pwd= request.form['pwd']
             name = request.form['name']
-            
-            db = pymysql.connect(
-                host="localhost", 
-                user='root',
-                password='1234',
-                charset='utf8',
-                database='python')
-            cur = db.cursor()
             cur.execute(f"""insert into member 
                         (email, password, name,regdate)
                         values
