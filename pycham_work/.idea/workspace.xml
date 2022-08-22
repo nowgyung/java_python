@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f6736b-d705-4f18-b19f-5ce05de94608" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../flask_work/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_work/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/220811/org/src/main/resources/static/css/a.css" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_work/220811/org/src/main/resources/static/css/a.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/220811/org/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_work/220811/org/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_work/220811/org/src/main/resources/templates/layout/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_work/220811/org/src/main/resources/templates/layout/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

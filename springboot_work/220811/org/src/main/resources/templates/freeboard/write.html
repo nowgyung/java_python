@@ -4,8 +4,8 @@
       layout:decorate="~{layout/layout}">
 
 <div layout:fragment="content" class="border border-2 m-3 p-3">
-    <h1> freeboard </h1>
-    <strong> Dropdown > Write </strong>
+    <h1> Freeboard </h1>
+    <strong> Board > Write </strong>
     <div class="d-flex justify-content-center">
         <div class=" w-100 p-3 m-3" style="color:black; background-color:#eee; border-radius:5px"> <!-- width-->
             <form method="post" action="/freeboard/write" th:object="${freeBoardReq}" enctype="multipart/form-data">
