@@ -38,10 +38,10 @@ import myloaddata
 print(train_scaled[0:1])
 print(train_scaled[0:1].shape)
 
-p1 = myloaddata.doloadimg("p1")
-s1 = myloaddata.doloadimg("s1")
-t1 = myloaddata.doloadimg("t1")
-gabang = myloaddata.doloadimg("gabang")
+# p1 = myloaddata.doloadimg("p1")
+# s1 = myloaddata.doloadimg("s1")
+# t1 = myloaddata.doloadimg("t1")
+# gabang = myloaddata.doloadimg("gabang")
 
 # plt.imshow(p1[0].reshape(28,28),cmap='gray_r')
 # plt.show()
@@ -68,6 +68,6 @@ gabang = myloaddata.doloadimg("gabang")
 
 
 #save하는 함수 
-for i in range(10):
+for i in range(20):
     train = (1-train_scaled[i+i+1])*255
     myloaddata.dosaveimg(f'train{i}',train.reshape(28,28))
