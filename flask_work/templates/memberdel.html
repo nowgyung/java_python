@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!--insert 하는곳-->
+<!DOCTYPE html> <!--select 하는곳-->
 <html lang="en">
 
 <head>
@@ -18,7 +18,7 @@
         </style>
 </head>
 
-<body class="d-flex justify-content-center">
+<body class = "d-flex justify-content-center">
     <div class="container  border border-2 p-3 m-3">
         <nav class="navbar navbar-expand-lg bg-secondary">
             <div class="container-fluid">
@@ -40,7 +40,7 @@
                             <a class="nav-link" href="member">member</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/" >Etc</a>
+                            <a class="nav-link" href="/"> Etc</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="/">Action</a></li>
                                 <li><a class="dropdown-item" href="/">Another action</a></li>
@@ -59,31 +59,13 @@
             </div>
         </nav>
         <div class="m-3 p-3 border">
-
-            <h1>memberform</h1>
-            <p>member insert 하세요.</p>
-            <a href="/" class="btn btn-primary">홈</a>
-            <a href="/member" class="btn btn-primary">목록</a>
+            <h1>member</h1>
+            <p class="p-3">데이터베이스 member 테이블에 가입 된 리스트입니다.</p>
+            <a href="/memberform" class="btn btn-primary"> 등록</a>
         </div>
         <div class="m-3 p-3 border">
-
-            <form  method="post">
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
-                </div>
-                <div  class="mb-3">
-                    <label for="pwd" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="pwd" name="pwd" placeholder="****">
-                </div>
-                <div  class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-                </div>
-                <div  class="d-flex justify-content-end">
-                    <input type="submit" value="등록" class="btn btn-primary">
-                </div>
-            </form>
+            삭제되었습니다. 
+            <a href="/member" type="button" class="btn btn-primary">목록</a>
         </div>
     </div>
 </body>

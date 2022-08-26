@@ -32,7 +32,7 @@ def hi():
     return render_template("hi.html")
 
 
-@app.route("/member")
+@app.route("/member") #요청
 def memeber():
     db = pymysql.connect(
                 host="localhost", 
@@ -44,16 +44,62 @@ def memeber():
     try:
         cur.execute("select * from member")
         rs = cur.fetchall()
+        # print(rs)
     except Exception as e:
             print(e)
     finally:
         db.commit()
-        cur.close()
+        cur.close() #다른사람이 사용할 수 있도록
     return render_template("member.html", rs=rs)
 
 
+@app.route("/memberdelete/<id>") #id값을 가져와서
+def memberdelte(id):
+    db = pymysql.connect(
+                host="localhost", 
+                user='do1',
+                password='do1',
+                charset='utf8',
+                database='python')
+    cur = db.cursor()
+    cur.execute(f'''delete from member where id = {id}''')
+    db.commit()
+    cur.close()
+
+    return render_template("memberdel.html")
+
+
+
+@app.route("/memberupdateform/<id>",methods=['GET','POST'])
+def memberupdateform(id):
+    if request.method=='GET':
+        print('get',id)
+        pass
+    elif request.method=='POST':
+        email = request.form['email']
+        pwd = request.form['pwd']
+        name = request.form['name']
+        db = pymysql.connect(
+                host="localhost",
+                user='do1',
+                password='do1',
+                charset='utf8',
+                database='python')
+        cur = db.cursor()
+        cur.execute(f'''update member 
+                        set email="{email}",
+                        password="{pwd}",
+                        name="{name}" where id={id}
+                         ''')
+        db.commit()
+        cur.close()
+    return render_template("memberupdateform.html")
+
+
+
+
 @app.route("/memberform", methods=['GET', 'POST'])
-def memebrform():
+def memberform():
     if request.method == 'GET':
         print('get')
         pass

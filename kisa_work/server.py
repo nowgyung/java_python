@@ -44,7 +44,7 @@ def pltmake(names):
     names = re.split(',',names)
     print('pltmake',names)
     for name in names:
-        if len(name) >0:
+        if len(name) >0: #빈공백이 들어올때도 있기에
             rowsdata = data[data['종목명'] == name]
             try:
                 x.append(name)
@@ -62,7 +62,7 @@ def index():
         for name in linnames:
             eno_names = eno_names + name+","
     else:
-        eno_names = '전기공사,가스,전자계산기,신재생에너지발전설비(태양광),빅데이터분석'
+        eno_names = '전기공사,가스,전자계산기,신재생에너지발전설비(태양광),빅데이터분석' #get방식일때
     return render_template("index.html", table_data=table_data,columns=columns,linnames=eno_names)
 
 @app.route("/gra/<linnames>")
